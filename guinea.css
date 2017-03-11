@@ -1,0 +1,15 @@
+.addcolor {
+	color: blue;
+}
+
+.hulkify {
+	font-size: 3rem;
+}
+
+.addborder {
+	border: 2px solid green;
+}
+
+.roundborder {
+	border-radius: 5px;
+}
