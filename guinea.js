@@ -10,7 +10,7 @@ var guineaPigText = document.getElementById("guinea-pig");
 
 
 function clickSection (event) {
-	var sectionText = articleSection.innerText;
+	var sectionText = event.target.innerText;
 	if (event.target.className === "article-section") {
 		outputTarget.innerHTML = `You clicked on the ${sectionText} section.`;
 	}
